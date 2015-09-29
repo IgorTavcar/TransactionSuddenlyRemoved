@@ -2,7 +2,7 @@
 
 ## Intro
 We experience a strange behaviour of SKPaymentQueue under iOS-9 and iOS-9.0.1. We suspect that this is an iOS issue. 
-This example is a minimal app-frame that demonstrates the SKPaymentQueue related issue. Download the example [here][1].
+This example is a minimal app-frame that demonstrates the SKPaymentQueue related issue.
 
 
 ## Facts
@@ -46,7 +46,4 @@ To reproduce the issue ...
 
 * Keep the app in the foreground while downloading.
 
-* Don't activate the app until the downloading process is completed (at the system level), then activate the app.
-
-
-  [1]: https://github.com/IgorTavcar/TransactionSuddenlyRemoved
+* Don't activate the app until the downloading is completed (at the system level), then activate the app.
