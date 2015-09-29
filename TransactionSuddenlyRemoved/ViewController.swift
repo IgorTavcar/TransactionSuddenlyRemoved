@@ -1,12 +1,3 @@
-//
-//  ViewController.swift
-//  TransactionSuddenlyRemoved
-//
-//  Created by Igor Tavcar on 29/09/15.
-//  Copyright (c) 2015 Resonanca IT d.o.o. All rights reserved.
-//
-
-
 import UIKit
 import StoreKit
 
@@ -17,6 +8,7 @@ class ViewController: UIViewController, SKProductsRequestDelegate {
     let NON_CONSUMABLE_PRODUCT_WITH_HOSTED_CONTENT = "bug.example.ios9.storekit.tsrcontent"
     
     var products : [SKProduct]?
+    
     var invalidProductIdentifiers : [String]?
     
     var requestingProducts: Bool
@@ -55,7 +47,7 @@ class ViewController: UIViewController, SKProductsRequestDelegate {
         
         requestProductsIfNeeded()
         
-        updateUi()
+        updateUI()
     }
     
     @IBAction func getAction(sender: AnyObject) {
@@ -91,7 +83,7 @@ class ViewController: UIViewController, SKProductsRequestDelegate {
         productsRequest.start();
     }
     
-    private func updateUi() {
+    private func updateUI() {
         if let product = retrievedProduct {
             if let info = currentInfo {
                 getButton.setTitle("\(info)", forState: UIControlState.Normal)
@@ -115,7 +107,7 @@ class ViewController: UIViewController, SKProductsRequestDelegate {
             currentInfo = nil
         }
         
-        updateUi()
+        updateUI()
     }
     
     
@@ -129,6 +121,6 @@ class ViewController: UIViewController, SKProductsRequestDelegate {
         
         requestingProducts = false;
         
-        updateUi()
+        updateUI()
     }
 }
