@@ -1,4 +1,4 @@
-# Transaction Suddenly /Unexpectedly/ Removed
+# Transaction Suddenly /Unexpectedly/ Removed from Queue
 
 ## Intro
 We experience a strange behaviour of SKPaymentQueue under iOS-9 and iOS-9.0.1. We suspect that this is an iOS issue. 
@@ -6,10 +6,11 @@ This example is a minimal app-frame that demonstrates the SKPaymentQueue related
 
 
 ## Facts
-* Tested in sandbox environment.
-* Tested in TestFlight environment.
-* Never tested in production environment.
-* Never tested for iOS-9.1 /beta/.
+* Issue appears in sandbox environment (iOS 9.0.1).
+* Issue appears in TestFlight environment (iOS 9.0.1).
+* Never tested in production environemt.
+* Never tested on iOS 9.1 /beta/.
+* Issue never appears on iOS 8.4.1.
 
 ## App
 This app requires one non-consumable IAP product with content hosted by Apple. 
