@@ -39,7 +39,7 @@ To reproduce the issue ...
  
 7. !! SKPaymentQueue will send the paymentQueue(queue: SKPaymentQueue, removedTransactions transactions: [SKPaymentTransaction])` message to the observer.
 
-8. !! Downloading process is then terminated forever.
+8. !! Downloading is now terminated (no events).
 
 
 ## Known Workarounds
