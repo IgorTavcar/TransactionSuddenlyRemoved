@@ -11,6 +11,7 @@ This example is a minimal app-frame that demonstrates the SKPaymentQueue related
 * Never tested in production environemt.
 * Never tested on iOS 9.1 /beta/.
 * Issue never appears on iOS 8.4.1.
+* Used devices: iPad air, iPhone 5s.
 
 ## App
 This app requires one non-consumable IAP product with content hosted by Apple. 
