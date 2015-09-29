@@ -2,7 +2,7 @@
 
 ## Intro
 We experience a strange behaviour of SKPaymentQueue under iOS-9 and iOS-9.0.1. We suspect that this is an iOS issue. 
-This example is a minimal app-frame that reproduces /demonstrates/ the problem.
+This example is a minimal app-frame that demonstrates the SKPaymentQueue related issue.
 
 
 ## Facts

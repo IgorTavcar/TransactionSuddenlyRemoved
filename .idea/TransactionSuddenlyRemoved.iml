@@ -2,11 +2,6 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/IAP/test copy 10.jpg" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IAP/test copy 11.jpg" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IAP/test copy 12.jpg" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IAP/test copy 13.jpg" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IAP/test copy 14.jpg" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IAP/test copy 2.jpg" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IAP/test copy 3.jpg" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/IAP/test copy 4.jpg" isTestSource="false" />
