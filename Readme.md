@@ -35,11 +35,11 @@ To reproduce the issue ...
 
 5. (Re)Activate the app (touch the app icon).
 
-6. SKPaymentQueue will eventually send one or two download events.
+6. SKPaymentQueue eventually sends one or two download updates (active state).
  
-7. !! SKPaymentQueue will send the paymentQueue(queue: SKPaymentQueue, removedTransactions transactions: [SKPaymentTransaction])` message to the observer.
+7. !! SKPaymentQueue invokes paymentQueue(queue: SKPaymentQueue, removedTransactions transactions: [SKPaymentTransaction])` message at the observer.
 
-8. !! Downloading is now terminated (no events).
+8. !! Downloading is now terminated (no more events).
 
 
 ## Known Workarounds
