@@ -37,9 +37,9 @@ To reproduce the issue ...
 
 6. SKPaymentQueue eventually sends one or two download updates (active state).
  
-7. !! SKPaymentQueue invokes paymentQueue(queue: SKPaymentQueue, removedTransactions transactions: [SKPaymentTransaction])` message at the observer.
+7. !! SKPaymentQueue invokes method paymentQueue(queue: SKPaymentQueue, removedTransactions transactions: [SKPaymentTransaction])` at the observer.
 
-8. !! Downloading is now terminated (no more events).
+8. !! No more events, downloading is terminated.
 
 
 ## Known Workarounds
