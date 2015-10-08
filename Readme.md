@@ -7,6 +7,9 @@ This example is a minimal app-frame that demonstrates the SKPaymentQueue related
 ###
 Issue reported to apple with id 22912989. 
 
+###
+Check out also our stackoverflow [question](http://stackoverflow.com/questions/32852495/ios9-skpaymentqueue-related-issue-transaction-unexpectedly-terminated-when-app).
+
 
 ## Facts
 * Issue appears in sandbox environment (iOS 9.0.1).
