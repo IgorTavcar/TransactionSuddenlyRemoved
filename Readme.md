@@ -1,7 +1,7 @@
 # Transaction Suddenly /Unexpectedly/ Removed from SKPaymentQueue
 
 ## Update
-This problem suddenly dissapeared. This project can be used as a minimalistic example of non-consumable IAP with content hosted on Apple.
+The SKPaymentQueue problem suddenly dissapeared. This project can be used as a minimalistic example of non-consumable IAP with content hosted on Apple.
 
 ## Intro
 We experience a strange behaviour of SKPaymentQueue under iOS-9 and iOS-9.0.1. We suspect that this is an iOS issue. 
